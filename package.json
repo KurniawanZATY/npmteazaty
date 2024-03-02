@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KurniawanZATY/npmteazaty.git"
+    "url": "https://github.com/your-username/npmteazaty.git"
   },
   "keywords": [
     "npm",
     "teazaty",
     "sample"
   ],
-  "author": "KurniawanZATY",
+  "author": "Your Name",
   "license": "MIT"
 }
