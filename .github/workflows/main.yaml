@@ -21,4 +21,4 @@ jobs:
       - name: Run npmteazaty script
         run: node index.js
         env:
-          TOKEN: ${{ secrets.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 }}
+          TOKEN: ${{ secrets.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 }}
