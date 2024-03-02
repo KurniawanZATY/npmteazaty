@@ -6,6 +6,10 @@
   "scripts": {
     "publish-npm": "npm publish"
   },
-  "author": "Your Name",
-  "license": "MIT"
+  "author": "KurniawanZATY",
+  "license": "MIT",
+  "devDependencies": {
+    "@actions/core": "^2.3.0",
+    "@actions/github": "^5.0.0"
+  }
 }
