@@ -1,3 +1,11 @@
-"scripts": {
-  "publish-npm": "npm publish"
-},
+{
+  "name": "npmteazaty",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "publish-npm": "npm publish"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
