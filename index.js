@@ -5,6 +5,11 @@ try {
   // Get the token from the workflow input
   const token = core.getInput('token');
 
+  // Check if the token is provided
+  if (!token) {
+    throw new Error('Token is required. Please set it as an input in your GitHub Actions workflow.');
+  }
+
   // Create octokit instance
   const octokit = github.getOctokit(token);
 
