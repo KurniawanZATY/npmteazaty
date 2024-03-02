@@ -1,15 +1,22 @@
+// package.json
+
 {
   "name": "npmteazaty",
   "version": "1.0.0",
-  "description": "Your project description",
+  "description": "A sample npm package",
   "main": "index.js",
   "scripts": {
-    "publish-npm": "npm publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Your Name",
-  "license": "MIT",
-  "devDependencies": {
-    "@actions/core": "1.10.1",
-    "@actions/github": "^5.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KurniawanZATY/npmteazaty.git"
+  },
+  "keywords": [
+    "npm",
+    "teazaty",
+    "sample"
+  ],
+  "author": "KurniawanZATY",
+  "license": "MIT"
 }
